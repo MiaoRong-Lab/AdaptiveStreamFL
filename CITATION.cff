@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "AdaptiveStreamFL"
+authors:
+  - family-names: "Xiong"
+    given-names: "Tai"
+  - family-names: "Zhang"
+    given-names: "Chi"
+  - family-names: "Rong"
+    given-names: "Miao"
+  - family-names: "Gong"
+    given-names: "Dunwei"
+  - family-names: "Yang"
+    given-names: "Shengxiang"
+preferred-citation:
+  type: article
+  title: "AdaptiveStreamFL: A Bayesian-enhanced multi-scale federated learning framework for dynamic data streams with uncertainty quantification"
+  authors:
+    - family-names: "Xiong"
+      given-names: "Tai"
+    - family-names: "Zhang"
+      given-names: "Chi"
+    - family-names: "Rong"
+      given-names: "Miao"
+    - family-names: "Gong"
+      given-names: "Dunwei"
+    - family-names: "Yang"
+      given-names: "Shengxiang"
+  journal: "Expert Systems with Applications"
+  volume: "299"
+  start: "129882"
+  year: 2026
+  doi: "10.1016/j.eswa.2025.129882"
+references:
+  - type: article
+    title: "FedStream: Prototype-Based Federated Learning on Distributed Concept-Drifting Data Streams"
+    authors:
+      - family-names: "Mawuli"
+        given-names: "Cobbinah B."
+      - family-names: "Che"
+        given-names: "Liwei"
+      - family-names: "Kumar"
+        given-names: "Jay"
+      - family-names: "Din"
+        given-names: "Salah Ud"
+      - family-names: "Qin"
+        given-names: "Zhili"
+      - family-names: "Yang"
+        given-names: "Qinli"
+      - family-names: "Shao"
+        given-names: "Junming"
+    journal: "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+    volume: "53"
+    issue: "11"
+    start: "7112"
+    end: "7124"
+    year: 2023
+    doi: "10.1109/TSMC.2023.3293462"

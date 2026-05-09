@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local experiment outputs
+results/
+outputs/
+temp/
+smoke_data/
+smoke_results/
+*.log
+
+# Large/local datasets
+dataset/*.npy
+dataset/*.gz
+dataset/*.zip
+dataset/*/
+dataset/*.csv
+dataset/*.arff
+!dataset/README.md
+
+# Generated figures
+*.png
+*.pdf
+*.svg
+
+# Keep source and docs even when broad ignore patterns match
+!README.md
+!CONTRIBUTING.md
+!CITATION.cff
+!THIRD_PARTY_NOTICES.md
+!OPEN_SOURCE_CHECKLIST.md
+!requirements.txt

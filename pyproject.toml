@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adaptivestreamfl"
+version = "0.1.0"
+description = "AdaptiveStreamFL research implementation for federated learning on dynamic data streams."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Tai Xiong" }
+]
+dependencies = [
+  "numpy>=1.21",
+  "pandas>=1.3",
+  "scikit-learn>=1.0"
+]
+
+[project.scripts]
+adaptivestreamfl = "adaptivestreamfl.core:main"
+
+[tool.setuptools.packages.find]
+include = ["adaptivestreamfl*"]
