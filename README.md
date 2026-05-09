@@ -64,6 +64,8 @@ benchmark datasets from their original sources, record the preprocessing steps,
 and publish large artifacts via a release archive or an external data repository
 when redistribution is permitted.
 
+Dataset source links and preparation notes are listed in `dataset/README.md`.
+
 ## Quick Start
 
 Run AdaptiveStreamFL:
